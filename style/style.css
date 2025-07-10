@@ -130,6 +130,8 @@ font-size: 24px;
   margin: 0 auto;
   margin-top: 100px;
   border-radius: 24px;
+  padding-top: 50px;
+  padding-bottom: 50px;
  
     
 }
@@ -168,4 +170,28 @@ font-size: 24px;
      margin-top: 18px;
     
 
+}
+
+
+
+.feedback-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.user{
+    padding: 60px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    justify-content: space-around;
+    margin-left: 70px;
+    
+}
+.text-center{
+    text-align: center;
+}
+.section-title{
+     font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
 }
