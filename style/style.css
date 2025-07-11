@@ -16,6 +16,7 @@
     font-family: "Inter", sans-serif;
     color: #4E47FF;
     font-weight: 800;
+    margin-top: 20px;
 }
 .sign{
     border: none;
@@ -28,6 +29,7 @@
     padding-right: 36px;
     border-radius: 10px ;
     margin-right: 150px;
+    margin-top: 28px;
 }
 .sign:hover{
      cursor: pointer;
@@ -58,7 +60,7 @@
     font-weight: 700;
     text-align: center;
     font-size: 65px;
-    margin-top: 300px;
+    margin-top: 250px;
       font-family: "Raleway", sans-serif;
     
 
@@ -75,7 +77,8 @@
     border-radius: 10px ;
     text-align: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .stay:hover{
     cursor: pointer;
@@ -346,10 +349,12 @@ margin-top: 20px;
  }
  .last{
     text-align: center;
-    height: 428px;
+    /* height: 428px; */
     width: 100%;
     background-color: white;
     justify-content: center;
+    padding: 90px 0;
+
    
   
  }
