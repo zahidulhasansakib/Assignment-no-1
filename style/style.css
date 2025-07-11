@@ -29,6 +29,14 @@
     border-radius: 10px ;
     margin-right: 150px;
 }
+.sign:hover{
+     cursor: pointer;
+    background-color: black;
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+    transition: all 1.5s;
+}
  .banner{
     height: 658px;
  width: 100%;
@@ -68,6 +76,14 @@
     text-align: center;
     justify-content: center;
     margin-top: 50px;
+}
+.stay:hover{
+    cursor: pointer;
+    background-color: black;
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+    transition: all 1.5s;
 }
 .banner-two{
     text-align: center;
@@ -117,6 +133,16 @@ font-size: 24px;
     justify-content: left;
     margin-right: 200px;
 }
+.live:hover{
+     cursor: pointer;
+    background-color: black;
+    color: orange;
+    font-weight: bold;
+    font-size: 25px;
+   width: 270px;
+   border-radius: 15px;
+    transition: all 1.5s;
+}
 .left-side{
     margin-top: 70px;
 }
@@ -124,8 +150,13 @@ font-size: 24px;
     display: flex;
     justify-content: space-around;
 }
-.user-title{
+.useer-title{
     text-align: center;
+     font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #252432;
+    padding-top: 50px;
 }
 .productive-users{
     height:306px ;
@@ -146,14 +177,14 @@ font-size: 24px;
     color: #4E47FF;
     margin-top: 60px;
 }
-.user-title{
+/* .user-title{
     font-family: "Raleway", sans-serif;
     font-size: 38px;
     font-weight: 700;
     color: #252432;
    padding-top: 50px;
   
-}
+} */
 
 .small{
     font-size: 20px;
@@ -302,6 +333,7 @@ margin-top: 20px;
     color: white;
     
  }
+
  .left-tuch-title{
     font-size: 97px;
     font-weight: bold;
@@ -331,6 +363,16 @@ margin-top: 20px;
     
 
  }
+ .footer-title:hover{
+text-align: center;
+     font-family: "Inter", sans-serif;
+     font-size: 110px;
+     color: #4E47FF;
+     font-weight: 900;
+     transition: all 1s;
+    
+ }
+
  .sub-title{
     font-size: 20px;
     color: #8987A1;
@@ -344,4 +386,9 @@ margin-top: 20px;
     text-decoration: none;
     color: #8987A1;
     padding: 20px;
+ }
+ .links a:hover{
+    color: black;
+     font-family: "Inter", sans-serif;
+     font-size: 23px;
  }
